@@ -1,0 +1,3 @@
+[
+    { "caption": "Prettydiff: beautify this file", "command": "prettydiff_beautify" },
+]
