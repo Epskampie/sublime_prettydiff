@@ -1,5 +1,6 @@
-# Sublime 3 prettydiff command
-Really basic plugin that makes [prettydiff](https://github.com/prettydiff/prettydiff) available in sublime text 3.
+# Sublime 3 prettydiff beautify command
+
+Really basic plugin that makes [prettydiff](https://github.com/prettydiff/prettydiff) beautify available in sublime text 3.
 
 Installation
 ============
@@ -13,5 +14,5 @@ Usage
 ============
 
 * In sublime text: press ctrl + shift + p (or Tools > Command palette)
-* Search for `prettydiff`
+* Search for `prettydiff beautify`
 * Press enter
