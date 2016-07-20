@@ -4,20 +4,6 @@ import subprocess
 from sublime import Region
 
 
-def get_indentation_on_line(view, point):
-    pt = view.line(point).begin()
-    result = ''
-    while True:
-        c = view.substr(pt)
-        if c == " " or c == "\t":
-            pt += 1
-            result += c
-        else:
-            break
-
-    return result
-
-
 class PrettydiffBeautifyCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         view = self.view

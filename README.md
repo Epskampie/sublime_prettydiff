@@ -1,4 +1,4 @@
-# Sublime 3 prettydiff beautify command
+# Sublime text 3 prettydiff beautify command
 
 Really basic plugin that makes [prettydiff](https://github.com/prettydiff/prettydiff) beautify available in sublime text 3.
 
